@@ -8,11 +8,11 @@ A set of plugins for [Tent](https://tent.io) client [Bungloo](http://jabs.nu/bun
 2. Add
 ```
 require( [
-    'plugins/it.to.work/hide-replies',
-    'plugins/it.to.work/unread-posts',
-    'plugins/it.to.work/marked-posts'
-    ], function() {
-    }
+	'plugins/it.to.work/hide-replies',
+	'plugins/it.to.work/unread-posts',
+	'plugins/it.to.work/marked-posts'
+	], function() {
+	}
 );
 ```
 to your `Plugin.js` file.
