@@ -33,6 +33,8 @@ The last read post has a thick top border to let you know there are unread posts
 
 The unread count is updated every 1 second.
 
+# Requirements
+* [Bungloo](http://jabs.nu/bungloo) 1.4.0
 
 # Install
 1. Copy or move the `it.to.work` directory in the [Bungloo directory for plugins](https://github.com/jeena/bungloo/wiki/Plugins).
