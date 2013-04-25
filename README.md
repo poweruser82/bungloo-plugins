@@ -3,6 +3,8 @@ bungloo-plugins
 
 A set of plugins for [Tent](https://tent.io) client [Bungloo](http://jabs.nu/bungloo)
 
+*The plugins are in a alpha stage. The code is not clean and there are known bugs. Use at your own risk.*
+
 # Plugins
 ## Marked Posts
 Double click on a post to mark it with a green border on the right.
@@ -19,7 +21,7 @@ The usecase is this.
 * When you come back you start reading timeline posts from where you left.
 * You read an interesting post that you know has replies (because of the new `⤼` icon).
 * You open its conversation view, read all the replies and go back to the timeline.
-* You click the `⤼` icon of my plugin.
+* You click the `⤼` icon next the repost button.
 * The replies you have already read in the conversation view will disappear.
 * You keep reading the rest of your timeline.
 
