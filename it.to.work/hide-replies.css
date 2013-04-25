@@ -1,0 +1,43 @@
+/* !HIDE REPLIES */
+.hide_replies {
+	width: 18px;
+	height: 12px;
+	float: right;
+	margin-left: 3px;
+	visibility: hidden;
+	font-size: 2em;
+	line-height: 0.8em;
+	color: #535353;	
+}
+li:hover aside .hide_replies {
+	visibility: visible;
+}
+li:hover aside .hide_replies:before {
+	content: "\293C";
+}
+li.has-hidden-replies:hover aside .hide_replies:before {
+	content: "\293D";
+}
+/*
+.has-hidden-replies {
+	border-left: 5px solid fuchsia;
+}
+*/
+/*
+li[class*='in-reply-to-'] {
+	-webkit-transition: all 0.5s ease;
+}
+*/
+.hidden-reply {
+	/* border-left: 5px solid red; */
+	display: none;
+}
+
+/*
+.is-reply {
+	border-left: 5px solid red;
+}
+.has-reply {
+	border-left: 5px solid fuchsia;
+}
+*/
