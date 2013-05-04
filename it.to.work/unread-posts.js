@@ -49,7 +49,8 @@ function addUnreadBadge() {
 };
 
 function updateUnread() {
-	var currentTopPost = document.elementFromPoint(70, 1);
+	//var currentTopPost = document.elementFromPoint(70, 1);
+	var currentTopPost = document.elementFromPoint(70, 11);
 	// stops if you are not in the timeline
 	if ($(currentTopPost).closest('.timeline > ol').length <= 0)
 		return;
