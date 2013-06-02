@@ -53,6 +53,7 @@ var addHideRepliesButton = function(element) {
 		hideRepliesButton.className = 'hide_replies';
 		//hideRepliesButton.innerText = '⇞';
 		hideRepliesButton.href = '#';
+		hideRepliesButton.title = 'Toggle replies';
 		hideRepliesButton.onclick = function() {
 			var classaction = 'add';
 			if ($(element).hasClass('has-hidden-replies')) {

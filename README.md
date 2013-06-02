@@ -7,12 +7,20 @@ A set of plugins for [Tent](https://tent.io) client [Bungloo](http://jabs.nu/bun
 
 # Plugins
 ## Marked Posts
-Double click on a post to mark it with a green border on the right.
-Doble click it again to unmark.
+Double click on a post to mark it with a green border on the right. Doble click it again to unmark.
+
+**Note**: [Minaliffic](https://github.com/sfcgeorge/Minimaliffic/) plugin contains a very similar version of this plugin. If you use minimaliffic, disable this one.
+
+## Hide Media
+This plugin add a button to every post which has at least an image, video or map.
+
+Clicking the `☗` button all the media of that post will be hidden.  
+Clicking the button (now `☖`) again, the media will reappear.
 
 ## Hide Replies
 This plugin add a button to every post that has at least a reply.
-Clicking the `⤼` button all the replies of that post will be hidden.
+
+Clicking the `⤼` button, all the replies of that post will be hidden.  
 Clicking the button (now `⤽`) again, the replies will reappear.
 
 The usecase is this.
@@ -34,13 +42,14 @@ The last read post has a thick top border to let you know there are unread posts
 The unread count is updated every 1 second.
 
 # Requirements
-* [Bungloo](http://jabs.nu/bungloo) 1.4.0
+* [Bungloo](http://jabs.nu/bungloo) 1.4.0–1.4.3
 
 # Install
 1. Copy or move the `it.to.work` directory in the [Bungloo directory for plugins](https://github.com/jeena/bungloo/wiki/Plugins).
 2. Add
     <pre>
     require([
+        'plugins/it.to.work/hide-media',
         'plugins/it.to.work/hide-replies',
         'plugins/it.to.work/unread-posts',
         'plugins/it.to.work/marked-posts'
@@ -50,3 +59,5 @@ The unread count is updated every 1 second.
     </pre>
 to your `Plugin.js` file.
 3. Restart Bungloo.
+
+If you want to use only some of the plugins, edit the `require` array accordingly.

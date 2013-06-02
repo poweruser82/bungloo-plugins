@@ -1,0 +1,24 @@
+/* !HIDE MEDIA */
+.hide_media {
+	width: 12px;
+	height: 12px;
+	float: right;
+	margin-left: 3px;
+	visibility: hidden;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	color: #535353;
+}
+li:hover aside .hide_media {
+	visibility: visible;
+}
+li:hover aside .hide_media:before {
+	content: "\2617";
+}
+li.has-hidden-media:hover aside .hide_media:before {
+	content: "\2616";
+}
+
+li.has-hidden-media p.images {
+	display: none;
+}
