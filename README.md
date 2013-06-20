@@ -12,13 +12,13 @@ Double click on a post to mark it with a green border on the right. Doble click 
 **Note**: [Minaliffic](https://github.com/sfcgeorge/Minimaliffic/) plugin contains a very similar version of this plugin. If you use minimaliffic, disable this one.
 
 ## Hide Media
-This plugin add a button to every post which has at least an image, video or map.
+This plugin adds a button to every post which has at least an image, video or map.
 
 Clicking the `☗` button all the media of that post will be hidden.  
 Clicking the button (now `☖`) again, the media will reappear.
 
 ## Hide Replies
-This plugin add a button to every post that has at least a reply.
+This plugin adds a button to every post that has at least a reply.
 
 Clicking the `⤼` button, all the replies of that post will be hidden.  
 Clicking the button (now `⤽`) again, the replies will reappear.
@@ -39,7 +39,7 @@ This plugin counts the new posts in your timeline you didn't read yet and locks 
 The number of unread posts appears as a badge on the Timeline icon in the sidebar.
 The last read post has a thick top border to let you know there are unread posts and you can start to scroll your timeline to read them.
 
-The unread count is updated every 1 second.
+The unread count updates every 1 second.
 
 # Requirements
 * [Bungloo](http://jabs.nu/bungloo) 1.4.0–1.4.3
