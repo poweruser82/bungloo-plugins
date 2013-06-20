@@ -1,4 +1,4 @@
-define(['module', 'jquery', 'plugins/it.to.work/scrollingElement'], function(myself, $, scrollingElement) {
+define(['module', 'jquery', './scrollingElement'], function(myself, $, scrollingElement) {
 
 	return new function() {
 
